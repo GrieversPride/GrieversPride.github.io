@@ -1,0 +1,72 @@
+.container-fluid {background-color:#e6e6e6;
+			color:#999999;
+			width:100%}
+			
+.jumbotron {background-color:#ff3333;
+			margin-top:10px;}
+
+ul {margin:0;
+	padding:0;
+	list-style:none;
+	width:100%;
+	margin-left:auto;
+	background-color:#404040;
+	}
+	
+li {float:left;
+	border-right:1px solid black
+	}
+	
+			
+li a{display:block;
+	padding:16px 16px;
+	text-align:center;
+}
+
+li a:link {color:none;
+		  text-decoration:none;}
+
+li a:visited {color:white;}
+
+li a:hover:not(.active)  {
+    background-color: #99ccff;
+    color: white;
+}
+
+li a.active {background-color:#4CAF50;
+			color:white;
+}
+
+			
+	
+#body {width:50%;
+	   height:60%;
+	   position:relative;
+	   left:300px;
+	   color:#595959;  	
+	   text-align:center;}
+	   
+#photo {float:left;
+		width:150px;
+		height:150px;}
+		
+#Video {float:right;
+		width:150px;
+		height:150px;}
+
+	
+Header {background-color:#4d0000;
+		position:relative;
+		top:0;
+		left:0;
+		height:15%;
+		width:100%;
+		}
+		
+Footer {background-color:#404040;
+		position:fixed;
+		bottom:0;
+		left:0;
+		height:5%;
+		width:100%;
+		text-align:center;}
